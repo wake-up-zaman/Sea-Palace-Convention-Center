@@ -86,9 +86,13 @@
     transition: all .3s ease 0s;
 }
 
+.Accordion{
+    margin-top: 80px;
+}
 
-
-
+.cmy-5{
+    margin-top: 40px;
+}
 
 
 
@@ -103,9 +107,7 @@
 .link{
     text-decoration: none;
 }
-.cmy-5{
-    margin-top: 100px;
-}
+
 .c-text-primary{
     color: darkslategrey;
 }
