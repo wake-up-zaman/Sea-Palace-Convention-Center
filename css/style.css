@@ -55,10 +55,6 @@
      margin-top: 80px;
 
 }
-/* .second2{
-    position: relative;
-    margin-top: 110px;
-} */
 
 .title-package{
     text-align: center;
@@ -103,16 +99,24 @@
 }
 
 
-@media only screen and (min-width:688px) and (max-width:992px)
-{
+.site-footer{
+    background-color: black;
 
-    .apple{
-        display: none;
-    }
 }
 
-    /* garbage     */
+.footer-last{
+    background-color: black;
+    color: whitesmoke;
+    height:280px;
+    margin-top: 80px;
+}
 
+.glg{
+    width: 120px;
+    margin-top: 20px;
+}
+
+ 
 .bn-text{
     color: floralwhite;
 }
@@ -149,78 +153,17 @@
     font-weight: bold;
 }
 
-footer{
-    background:#111;
-    height: 200px;
-    padding-top: 20px;
-    color: #fff;
-    margin-left: 0px;
-    line-height: 10px;
-    margin-top:80px;
-}
-.footer-content{
-    text-align: center;
-    padding:20px;
-}
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400px;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p{
-    max-width: 500px;
-    margin:10px auto;
-    line-height: 28px;
-    font-size: 14px;
-
-
-}
-
-.last{
-    border-radius: 20px;
-    background-color:   #FFFFFF;
-    color: black;
-    width: 150px;
-    height:30px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    padding-top: 3px;
-    margin-left: 25px;
+.pos{
+    position:relative;
+    margin-top: 30px;
 }
 
 .pos1{
     position: relative;
-
+    background-color: white;
+    width: 320px;
 }
 
 
-.foot1{
 
-    text-align: center;
 
-    justify-content: center;
-    margin-top: 80px;
-}
-.foot3{
-    margin-top: 50px;
-    margin-left: 300px;
-
-}
-
-.google{
-    width: 160px;
-    height:190px;
-    position:relative;
-    bottom: 65px;
-    right:20px;
-
-}
-.rrrr{
-    margin-bottom: 20px;
-}
-.foot-main{
-    margin-bottom: 0px;
-}
