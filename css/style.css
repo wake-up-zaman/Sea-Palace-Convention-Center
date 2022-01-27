@@ -64,7 +64,8 @@
 
 .c-btn-primary{
     border-radius: 20px;
-    background-color:   #6e7b97;
+    /* background-color:   #6e7b97; */
+    background-color: #36cccc;
     color: #fdfeff;
     width: 150px;
     height: 40px;
@@ -142,7 +143,7 @@
     text-align: center;
 }
 .clr{
-    color:  #5243C2;
+    color:  #36cccc;
 
     
 }
@@ -160,7 +161,7 @@
 
 .pos{
     position:relative;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .pos1{
@@ -192,3 +193,60 @@
     text-align:center;
     
 }
+
+.Bar{
+    border: 0px solid black;
+    background-color: #3F87F5;
+    color: whitesmoke;
+    padding: 15px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width:688px) {
+    .sr{
+        position: relative;
+    }
+    .media{
+        position: absolute;
+        top:1490px;
+        left:100px;
+    }
+    .sr{
+        margin-bottom: 100px;
+    }
+
+}
+
+@media only screen and (max-width:688px) {
+
+    .rpos1{
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .ts{
+        position: absolute;
+        top:970px;
+        left:50px;
+      
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .ts{
+        position: absolute;
+        top:970px;
+        right:50px;
+      
+    }
+  }
